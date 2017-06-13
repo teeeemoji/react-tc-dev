@@ -1,7 +1,6 @@
 // h is react-helper
 /**
  * @file 用于提供 react helper 直接用 js 写 UI
- * @author Liang, Chengxing, Jun Wu
  */
 
 import {createElement} from 'react';

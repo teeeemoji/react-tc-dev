@@ -1,7 +1,7 @@
-#react-tc-dev
+# react-tc-dev
 
-##框架说明
-- 使用 react +  mobx + react-router 作为基础框架进行单页面应用开发
+## 框架说明
+- 使用 react +  mobx + react-router 作为基础框架进行单页面应用开发,使用 ant.design 作为组件库进行应用的快速开发
 (实际也可以开发多页面应用)
 
 - 使用 less 优雅地进行样式开发
@@ -10,7 +10,25 @@
 
 - 额外: 使用 express 包裹这 webpack-dev-middleware,使用简单的方法完成 mock 数据的
 
-##开发相关:
+## 使用方法
+
+### 首先要安装
+```
+npm install
+```
+
+### 打开 webpack 开发服务器
+**注意**:这是直接使用 webpack-dev-server 的,接口转发/mock 数据功能要自己配置
+不建议使用
+```
+npm run dev
+```
+### 打开带有 mock 功能的开发服务器
+```
+npm rum ms
+```
+
+## 开发相关:
 - ajax 使用 superagent,并且是 bluebird 包装过的 superagent
 - 页面编写避免使用 JSX (维护困难),转而使用 react-helper(h)
 

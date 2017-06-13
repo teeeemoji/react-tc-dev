@@ -1,6 +1,5 @@
 /**
  * @file APP_NAME 用于
- * @author YOURNAME
  */
 
 import {observable, action} from 'mobx';

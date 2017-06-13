@@ -1,6 +1,5 @@
 /**
  * @file --
- * @author zhengliangliang
  */
 
 import {hashHistory} from 'react-router';

@@ -1,7 +1,5 @@
 /**
  * @file ajax
- * @description 通用导入组件
- * @author zhengliangliang
  */
 
 
